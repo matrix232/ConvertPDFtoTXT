@@ -1,6 +1,6 @@
 # Converter PDF to .txt
 ## Functions:  **Converting PDF file to .txt file**
-###Usage:
+**Usage:**
 **1. In open window click on Select**
 
 ![Invalid image...](https://i.ibb.co/XFh2VmB/GUI.png)
