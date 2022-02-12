@@ -1,0 +1,6 @@
+venv
+.idea
+__pycache__
+icon.ico
+outfile.txt
+test1.pdf
