@@ -12,10 +12,12 @@ class Converting:
             with pdfplumber.open(r"{0}".format(self.infile)) as  infile, open("outfile.txt", "w") as out_file:
                 # get text from  pages
                 PagesNum = infile.pages
+                text = ""
                 for i in range(len(PagesNum)):
                     first_page = infile.pages[i]
                     # extracting text
-                    out_file.write(first_page.extract_text())
+                    text += first_page.extract_text()
+                out_file.write(text)
 
 
         except FileNotFoundError:
